@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6513a483-0242-4dfa-948e-89320d28d369" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EDA/Lab2/bin/arraylist/MiArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab2/bin/arraylist/MiArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EDA/Lab2/bin/arraylist/PruebaMiArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab2/bin/arraylist/PruebaMiArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EDA/Lab2/src/arraylist/MiArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab2/src/arraylist/MiArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EDA/Lab2/src/arraylist/PruebaMiArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab2/src/arraylist/PruebaMiArrayList.java" afterDir="false" />
+    <list default="true" id="6513a483-0242-4dfa-948e-89320d28d369" name="Changes" comment="complete ejer1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +36,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664752153897</updated>
-      <workItem from="1664752155600" duration="2715000" />
+      <workItem from="1664752155600" duration="2940000" />
     </task>
+    <task id="LOCAL-00001" summary="complete ejer1">
+      <created>1664754964966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664754964966</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -60,5 +61,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="complete ejer1" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete ejer1" />
   </component>
 </project>
