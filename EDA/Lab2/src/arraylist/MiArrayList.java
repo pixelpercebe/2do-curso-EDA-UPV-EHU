@@ -89,13 +89,25 @@ public class MiArrayList<T> {
     //Removes the element at the specified position in this list.
     //Returns the removed element.
     public T remove(int index) throws IndexOutOfBoundsException {
+        int cont = 0;
+        T persona = null;
         //TODO
-        while (cont < tamanio && !elementos[) {
+
+        while (cont < tamanio && cont != index) {
             cont++;
         }
-        if (cont == tamanio) {
-            return -1;
-        return null; //CORREGIR SI ES NECESARIO
+        if (cont == index) {
+            persona = elementos[cont];
+        }
+
+        if (cont < tamanio) {
+            for (int i = index; i < tamanio-1; i++) {
+                elementos[i] = elementos[i + 1];
+            }
+            tamanio --;
+        }
+
+        return persona;
     }
 
 
@@ -108,7 +120,7 @@ public class MiArrayList<T> {
         //TODO
         StringBuilder lista = new StringBuilder();
         int cont = 0;
-        while (elementos[cont] != null) {
+        while (cont < tamanio && elementos[cont] != null) {
             lista.append(elementos[cont] + " ");
             cont++;
         }
