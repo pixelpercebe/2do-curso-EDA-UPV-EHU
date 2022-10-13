@@ -27,15 +27,40 @@ public class Palabra {
 	//Hace tantas copias de las vocales como indica 'veces'
 	//Ejemplo: si la lista contiene 'hola', replicarVocales(2) la convertirá en 'hooolaaa'
 	public void replicarVocales(int veces) {
-		//TO DO
-		
-		
-		
+		//TODO
+		char capitalLetter;
+		Node<Character> current = first;
+		while ((current != null)) {
+			capitalLetter = (Character.toUpperCase(current.info));
+			if (capitalLetter == 'A' || capitalLetter == 'E' || capitalLetter == 'I' || capitalLetter == 'O' || capitalLetter == 'U') {
+				for (int i = 0; i < veces; i++) {
+					Node<Character> newNode = new Node<>(current.info);
+					newNode.info = current.info;
+					newNode.prev = current;
+					if (current != last)
+					{
+						newNode.next = current.next;
+						current.next.prev = newNode;
+						current.next = newNode;
+						current = current.next;
+					}
+					else
+					{
+						current.next = newNode;
+						current = newNode;
+						last = newNode;
+					}
+				}
+				current = current.next;
+			}
+			 else
+				current = current.next;
+		}
 	}
 	
 	
 	public void entrecomillar() {
-		//TO DO
+		//TODO
 		
 	}
 	

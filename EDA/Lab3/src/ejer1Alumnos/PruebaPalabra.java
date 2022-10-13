@@ -1,5 +1,8 @@
 package ejer1Alumnos;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class PruebaPalabra {
 
 
@@ -9,7 +12,7 @@ public class PruebaPalabra {
 		lc.imprimirAlDerecho();
 		lc.imprimirAlReves();
 
-		lc.replicarVocales(2);
+		lc.replicarVocales(3);
 		lc.imprimirAlDerecho();
 		lc.imprimirAlReves();
 
@@ -17,6 +20,6 @@ public class PruebaPalabra {
 		lc.imprimirAlDerecho();
 		lc.imprimirAlReves();
 
+		}
 	}
 
-}
