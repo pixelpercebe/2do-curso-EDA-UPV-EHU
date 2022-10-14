@@ -26,9 +26,20 @@ public class ListaDeJugadores {
 				sc.nextLine();
 				
 				int puntosRestar = lanzarDado();//nº de puntos que hay que restar al jugador actual
-				
-				//TO DO
+				//TODO
+				System.out.println(actual.info.getNombre() + " Tira el dado: "  + puntosRestar);
 
+				actual.info.setPuntos(actual.info.getPuntos() - puntosRestar);
+
+				if (actual.info.getPuntos() <= 0) {
+					actual.prev.next = actual.next;
+					actual.next.prev = actual.prev;
+				}
+
+				actual = actual.next;
+
+				if (first.info.getPuntos() <= 0)
+					first = actual;
 			}
 			this.print();
 			System.out.println(first.info.getNombre() + " ha ganado la partida.");

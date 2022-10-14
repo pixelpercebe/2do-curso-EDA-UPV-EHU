@@ -61,7 +61,16 @@ public class Palabra {
 	
 	public void entrecomillar() {
 		//TODO
-		
+		Node<Character> comillas1 = new Node<>('"');
+		Node<Character> comillas2 = new Node<>('"');
+
+		comillas1.next = first;
+		first.prev = comillas1;
+		first = comillas1;
+
+		comillas2.prev = last;
+		last.next = comillas2;
+		last = comillas2;
 	}
 	
 	

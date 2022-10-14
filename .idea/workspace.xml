@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf338893-34fe-4afd-93fe-17b3e1161344" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EDA/Lab3/Lab3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab3/bin/ejer1Alumnos/Palabra.class" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab3/bin/ejer1Alumnos/Palabra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab3/bin/ejer2Alumnos/ListaDeJugadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab3/bin/ejer2Alumnos/ListaDeJugadores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab3/bin/ejer3Alumnos/MyOrderedLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab3/bin/ejer3Alumnos/MyOrderedLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EDA/Lab3/src/ejer1Alumnos/Palabra.java" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab3/src/ejer1Alumnos/Palabra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EDA/Lab3/src/ejer1Alumnos/PruebaPalabra.java" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab3/src/ejer1Alumnos/PruebaPalabra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab3/src/ejer2Alumnos/ListaDeJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab3/src/ejer2Alumnos/ListaDeJugadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab3/src/ejer3Alumnos/MyOrderedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab3/src/ejer3Alumnos/MyOrderedLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +26,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
-  <component name="RunManager">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.PruebaMyOrderedLinkedList">
+    <configuration name="PruebaListaJugadores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejer2Alumnos.PruebaListaJugadores" />
+      <module name="Lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejer2Alumnos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PruebaMyOrderedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejer3Alumnos.PruebaMyOrderedLinkedList" />
+      <module name="Lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejer3Alumnos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PruebaPalabra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejer1Alumnos.PruebaPalabra" />
       <module name="Lab3" />
@@ -45,6 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PruebaMyOrderedLinkedList" />
+        <item itemvalue="Application.PruebaListaJugadores" />
         <item itemvalue="Application.PruebaPalabra" />
       </list>
     </recent_temporary>
@@ -61,6 +93,9 @@
       <workItem from="1665164716814" duration="130000" />
       <workItem from="1665666403274" duration="4601000" />
       <workItem from="1665673206214" duration="1606000" />
+      <workItem from="1665688150126" duration="10270000" />
+      <workItem from="1665740658372" duration="1342000" />
+      <workItem from="1665771510725" duration="4529000" />
     </task>
     <servers />
   </component>
@@ -77,20 +112,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/EDA/Lab3/src/ejer1Alumnos/Palabra.java</url>
-          <line>28</line>
-          <properties class="ejer1Alumnos.Palabra" method="replicarVocales">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
