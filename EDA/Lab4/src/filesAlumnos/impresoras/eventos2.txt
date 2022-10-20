@@ -1,0 +1,17 @@
+S 2 a.txt
+S 2 b.txt
+S 0 c.txt
+P
+S 2 d.txt
+S 0 e.txt
+I 4
+I 4
+F
+S 3 f.txt
+S 0 g.txt
+P
+S 0 h.txt
+F
+S 3 i.txt
+S 3 j.txt
+I 3

@@ -1,0 +1,12 @@
+S  0  mate.pdf
+S  1  eda.pdf
+I  0
+S  0  ia.txt
+S  3  cierre.docx
+I  3
+S  3  pb.pdf
+P
+I  4
+S  2  informe.odt
+F
+S  0  calculo.ods
