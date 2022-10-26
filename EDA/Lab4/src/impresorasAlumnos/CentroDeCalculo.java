@@ -29,7 +29,8 @@ public class CentroDeCalculo {
 	//TODO: completar simularEventos: simula los eventos del fichero y al finalizar imprime los nombres de los archivos que quedan en cada impresora
 	public void simularEventos(String nomFich) throws IOException {
 
-		Scanner sc = new Scanner(new File(nomFich));
+		File F = new File(nomFich);
+		Scanner sc = new Scanner(F);
 		String[] datos;
 		problema = false;
 
