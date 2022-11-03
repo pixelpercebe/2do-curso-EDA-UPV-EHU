@@ -31,25 +31,25 @@ public class Nodo<T> {
 
 	// EJERCICIO 1
 	public LinkedList<T> elementosEnInOrden() {
-		//TODO
-		return null;
+		//TO DO
+		return null; //CORREGIR SI NECESARIO
 	}
 
 	// EJERCICIO 2
 	public ResultadoContainsYNivel containsYNivel(T elem, int nivel) {
-		//TODO
+		//TO DO
 		return null; //CORREGIR SI NECESARIO
 	}
 
 	// EJERCICIO 3
 	public int altura() {
-		//TODO
+		//TO DO
 		return -1; //CORREGIR SI NECESARIO
 	}
 
 	// EJERCICIO 4
 	public LinkedList<T> obtenerCaminoHojaIzquierda() {
-		//TODO
+		//TO DO
 		return null; //CORREGIR SI NECESARIO
 	}
 }
