@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64aaf7c3-9253-4e6c-afaf-aa715dbb13f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EDA/Lab5/Lab5.iml" afterDir="false" />
+    <list default="true" id="6277f026-190e-43af-abc0-68d98b59817e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/EDA/Lab6/Lab6.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EDA/Lab3/bin/ejer1Alumnos/PruebaPalabra.class" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab3/bin/ejer1Alumnos/PruebaPalabra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab5/src/files/arbol0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab5/src/arbolBinarioAlumnos/arbol0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab5/src/files/arbol1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab5/src/arbolBinarioAlumnos/arbol1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab5/src/files/arbol2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab5/src/arbolBinarioAlumnos/arbol2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab5/src/files/arbol3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab5/src/arbolBinarioAlumnos/arbol3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab5/src/files/arbol4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab5/src/arbolBinarioAlumnos/arbol4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab5/src/files/arbol5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab5/src/arbolBinarioAlumnos/arbol5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab6/bin/ejercicio_1_Alumnos/PruebaEjercicio1.class" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab6/bin/ejercicio_1_Alumnos/PruebaEjercicio1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab6/bin/filesNoABB/arbol0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab6/bin/filesNoABB/arbol1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab6/bin/filesNoABB/arbol2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab6/bin/filesNoABB/arbol3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab6/bin/filesNoABB/arbol4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab6/bin/filesNoABB/arbol5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab6/bin/filesNoABB/arbol6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDA/Lab6/src/ejercicio_1_Alumnos/PruebaEjercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/EDA/Lab6/src/ejercicio_1_Alumnos/PruebaEjercicio1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +32,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Giwv4xpHikLFvgJL7NOzU0xXa0" />
+  <component name="ProjectId" id="2HGl6IbIbDwvM5civi84KRpdIlo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,16 +43,42 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\icalb\Documents\GitHub\2do-curso-EDA-UPV-EHU\EDA\Lab6\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PruebaEjercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio_1_Alumnos.PruebaEjercicio1" />
+      <module name="Lab6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio_1_Alumnos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PruebaEjercicio1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="64aaf7c3-9253-4e6c-afaf-aa715dbb13f9" name="Changes" comment="" />
-      <created>1666884995284</created>
+      <changelist id="6277f026-190e-43af-abc0-68d98b59817e" name="Changes" comment="" />
+      <created>1667919131449</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666884995284</updated>
-      <workItem from="1666885001684" duration="2747000" />
-      <workItem from="1666889727212" duration="1839000" />
+      <updated>1667919131449</updated>
+      <workItem from="1667919136977" duration="1533000" />
+      <workItem from="1668816093742" duration="131000" />
+      <workItem from="1669199788447" duration="686000" />
     </task>
     <servers />
   </component>

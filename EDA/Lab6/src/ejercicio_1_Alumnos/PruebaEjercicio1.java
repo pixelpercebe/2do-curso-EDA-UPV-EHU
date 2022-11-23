@@ -58,10 +58,10 @@ public class PruebaEjercicio1 {
 		for(int i=0; i<=6; i++) {
 			
 			System.out.println("\n-------------\n ÁRBOL "+i+"\n-------------");
-			File path = new File("src/filesNoABB/arbol"+i+".txt");
+			File path = new File("src/arbol"+i+".txt");
 			System.out.println(path.canRead());
 			System.out.println(path.exists());
-			ab = cargar("src/filesNoABB/arbol"+i+".txt");
+			ab = cargar("src/arbol"+i+".txt");
 			
 						
 			for(int j=0; j<=5; j++) {
